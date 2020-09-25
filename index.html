@@ -1,26 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>tinyCode_Random Quote Generator</title>
     <link rel="icon" href="assets/images/favicon-16x16.png">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,300;0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-   <div class="quote__container" id="quote__container">
-       <!-- QUOTE -->
+    <div class="quote__container" id="quote__container">
+        <!-- QUOTE -->
         <div class="quote__text">
             <i class="fas fa-quote-left"></i>
-            <span id="quote">You are what you is.</span>
+            <span id="quote"></span>
             <i class="fas fa-quote-right"></i>
         </div>
 
         <!-- AUTHOR -->
         <div class="quote__author">
-            <span id="author">Frank Zappa</span>
+            <span id="author"></span>
         </div>
 
         <!-- BUTTONS -->
@@ -30,9 +33,13 @@
             </button>
             <button class="button__quote" id="new-quote">New Quote</button>
         </div>
+        
+        <!-- LOADER -->
+        <div class="loader" id="loader"></div>
+    </div>
 
-   </div>
     <!-- Script -->
     <script src="script.js"></script>
 </body>
+
 </html>
