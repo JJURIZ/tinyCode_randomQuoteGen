@@ -16,6 +16,19 @@ body {
   justify-content: center;
 }
 
+.header {
+
+  &___main {
+  position: relative;
+  
+  }
+
+  &__text {
+    position: absolute;
+  
+  }
+}
+
 .quote {
   &__container {
     @media screen and (max-width: 1000px) {
@@ -45,7 +58,7 @@ body {
     display: flex;
     justify-content: center;
     margin-top: 1.5rem;
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 400;
     font-style: italic;
   }
@@ -62,7 +75,7 @@ body {
 button {
   cursor: pointer;
   font-size: 1.5rem;
-  height: 2.5rem;
+  height: 4rem;
   border: none;
   border-radius: 1rem;
   color: white;

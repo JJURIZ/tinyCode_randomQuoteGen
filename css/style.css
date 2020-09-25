@@ -13,6 +13,12 @@ body {
   align-items: center;
   justify-content: center; }
 
+.header___main {
+  position: relative; }
+
+.header__text {
+  position: absolute; }
+
 .quote__container {
   width: auto;
   max-width: 90rem;
@@ -37,7 +43,7 @@ body {
   display: flex;
   justify-content: center;
   margin-top: 1.5rem;
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: 400;
   font-style: italic; }
 
@@ -49,7 +55,7 @@ body {
 button {
   cursor: pointer;
   font-size: 1.5rem;
-  height: 2.5rem;
+  height: 4rem;
   border: none;
   border-radius: 1rem;
   color: white;
